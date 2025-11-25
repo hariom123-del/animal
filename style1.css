@@ -1,0 +1,66 @@
+.radial{
+    background: radial-gradient(#9d4edd,#2a00b7);
+    height: 100vh;
+}
+.text{
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    color: transparent;
+    background: linear-gradient(orange 60%,yellow,red );
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: cursive;
+    animation-name: ani1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes ani1{
+    0%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateX(-20px);
+    }
+}
+.text2{
+    font-size: 20px;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(red,black);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 30px;
+    animation-name: ani2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+@keyframes ani2{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.btn{
+    height: 100px;
+    margin-left: 590px;
+    margin-top: 100px;
+    width: 200px;
+    border-radius: 50%;
+    font-size: x-large;
+}
+.btn:hover{
+    background: linear-gradient(90deg, #ff00ff, #8a2be2, #0066ff);
+
+}
+
